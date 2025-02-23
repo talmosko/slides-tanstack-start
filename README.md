@@ -1,4 +1,10 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Tanstack Start - A Fresh Take on React
+
+Presentation for React IL meetup 02/2025
+
+Download the slides: [slides.pdf](./slides.pdf)
+
+
 
 To start the slide show:
 
