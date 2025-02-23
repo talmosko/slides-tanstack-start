@@ -6,7 +6,7 @@
 
 ````md magic-move {lines: true}
 ```tsx
-// Fetching critical data on the server
+// Fetching critical data on server-side
 export const route = createRoute({
   loader: async () => {
     await queryClient.ensureQueryData(postsQuery)
@@ -21,7 +21,7 @@ export const route = createRoute({
 ```
 
 ```tsx
-// We can use fetch directly in the loader instead tanstack query
+// We can use `fetch` directly in the loader instead of `TanStack Query`
 export const route = createRoute({
   loader: async () => ({
     posts: await fetchPosts()
@@ -48,7 +48,7 @@ export const route = createRoute({
 
 ````md magic-move {lines: true}
 ```tsx
-// Prefetch data with deferred loading using SuspenseQuery
+// Prefetch data with deferred loading using `SuspenseQuery`
 export const route = createRoute({
   loader: async () => {
     queryClient.prefetchQuery(postsQuery)
@@ -61,7 +61,7 @@ export const route = createRoute({
 ```
 
 ```tsx
-// Deferred loading with Await component
+// Deferred loading with `Await` component
 export const route = createRoute({
   loader: async () => ({
     postsPromise: fetchPosts()
@@ -92,7 +92,7 @@ export const route = createRoute({
 <div class="flex flex-col justify-between h-[82%]">   
 
 ```tsx
-// Dynamic Streaming
+// Dynamic streaming
 
 const { data } = useSuspenseQuery(postsQuery)
     

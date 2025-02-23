@@ -9,7 +9,7 @@
 ---
 layout: two-cols
 ---
-# The magic behind TanStack Start
+# The Magic Behind TanStack Start
 
 <ul class="flex flex-col gap-5">
 	<li v-click class="text-5xl">TanStack Router</li>
@@ -24,7 +24,7 @@ layout: two-cols
 
 ---
 ---
-# Why do we need Another meta-framework?
+# Why Do We Need Another Meta-Framework?
 
 ## Client-First Philosophy 🎯
 
@@ -46,9 +46,9 @@ export function Component() {
 </div>
 ---
 ---
-# Why do we need Another meta-framework?
+# Why Do We Need Another Meta-Framework?
 
-## Cache = Tanstack Query 🔄
+## Cache = TanStack Query 🔄
 
 
 <ul class="mb-10">
@@ -74,7 +74,7 @@ export const route = createFileRoute('/users')({
 </div>
 ---
 ---
-# Why do we need Another meta-framework?
+# Why Do We Need Another Meta-Framework?
 
 ## Smart Data Handling - No More Full Page Refreshes 🚀
 
@@ -102,7 +102,7 @@ export const updateProfile = createServerFunction('post')(
 
 ---
 ---
-# Why do we need Another meta-framework?
+# Why Do We Need Another Meta-Framework?
 
 ## Incremental Adoption 📈
 

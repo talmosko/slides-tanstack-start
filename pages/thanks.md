@@ -3,7 +3,7 @@ layout: two-cols
 ---
 <div class="flex flex-col items-center justify-center gap-2 h-full pb-20">
 
-<a href="https://github.com/talmosko/tanstack-start">Demo + slides</a>
+<a href="https://github.com/talmosko/tanstack-start">Demo + Slides</a>
 
 <img src="../images/qrcode_github.com.png" class="w-30 h-30" />
 
@@ -15,7 +15,7 @@ layout: two-cols
 
 <div class="tal-image w-52 h-52" />
 
-<h1 class="!mb-2 !mt-5">Thank you!</h1>
+<h1 class="!mb-2 !mt-5">Thank You!</h1>
 
 
 <div class="flex flex-col gap-3 mt-2">
