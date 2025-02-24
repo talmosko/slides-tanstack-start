@@ -18,13 +18,23 @@ layout: two-cols
 </ul>
 
 ::right::
-<img src="../images/tanstack.png" style="width: 50%; height: 50%;" class="m-auto self-center mt-30" />
+
+<div class="flex flex-col items-center gap-2" v-click>
+<img src="../images/tanner.jpg" style="width: 50%; height: 50%;" class="m-auto self-center mt-30 rounded-full" />
+
+## Tanner Linsley
+
+
+</div>
 
 
 
 ---
 ---
 # Why Do We Need Another Meta-Framework?
+
+<div v-click>
+
 
 ## Client-First Philosophy 🎯
 
@@ -35,7 +45,7 @@ layout: two-cols
 	<li>Opt-in to server features, not opt-out</li>
 </ul>
 
-
+</div>
 <div v-click>
 ```tsx 
 // Natural React code without directives

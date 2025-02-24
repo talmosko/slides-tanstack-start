@@ -2,6 +2,17 @@
 ---
 # Data Fetching
 
+<div class="flex flex-col justify-center h-[60%]">   
+<DataFetchingStepper :currentStep="0" class="" />
+</div>
+
+
+
+
+---
+---
+# Data Fetching
+
 <div class="flex flex-col justify-between h-[82%]">   
 
 ````md magic-move {lines: true}
