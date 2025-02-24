@@ -69,7 +69,8 @@ mdc: true
 # TanStack Start: 
 # A Fresh Take on React
 
-Tal moskovich
+Tal Moskovich <br/>
+React IL 02/2025
 
 
 <!--
